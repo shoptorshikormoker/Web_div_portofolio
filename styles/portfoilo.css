@@ -1,4 +1,6 @@
-
+.ml-2{
+    margin-left: 2rem;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -15,7 +17,10 @@
 .dark-2{
     color: #474747;
 
-}       
+}  
+.dark-3{
+    color: #757575;
+}     
 .btn-primary{
     background-color: #FD6E0A;
     font-size: 20px;
@@ -24,6 +29,20 @@
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
+}
+.btn-secondary{
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+.btn-content{
+    display: flex;
+    gap: 5px;
 }
 .section-title{
     font-size: 35px;
@@ -119,4 +138,34 @@ main-section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-container{
+   display: flex;
+   gap: 24px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+footer {
+    padding: 0px 230px;
+    display: flex;
+    gap: 100px;
+    margin-top: 80px;
+}
+footer .logo{
+    display: flex;
+    gap: 20px;
+}
+.footer-coloum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
